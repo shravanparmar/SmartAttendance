@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/reg"
+        android:textColor="@color/black"
+        android:text="Welcome Teacher"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/textView4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:text="Login ID"
+        android:layout_below="@id/reg"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="70dp"
+        android:text="Password"
+        android:layout_below="@id/textView4"
+        android:textSize="25dp" />
+
+
+    <EditText
+        android:layout_marginRight="15dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_below="@id/reg"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="150dp"
+        android:hint="Enter Login ID"
+        android:textAlignment="center"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:textColorHint="@color/black"
+        android:id="@+id/editText3"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_below="@id/editText2"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:layout_marginLeft="150dp"
+        android:textAlignment="center"
+        android:hint="Enter Password"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText3"
+        android:layout_marginLeft="56dp"
+
+        android:layout_marginTop="170dp"
+
+        android:background="@color/trans"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:text="Login" />
+
+</RelativeLayout>
